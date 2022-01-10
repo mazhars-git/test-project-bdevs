@@ -2,6 +2,7 @@ import React from 'react';
 import Churches from '../Churches/Churches';
 import Events from '../Events/Events';
 import Header from '../Header/Header';
+import Sermons from '../Sermons/Sermons';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Header />
             <Churches />
             <Events />
+            <Sermons />
         </div>
     );
 };
