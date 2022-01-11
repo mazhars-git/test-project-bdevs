@@ -2,12 +2,15 @@ import React from 'react';
 import MainMenu from '../MainMenu/MainMenu';
 import '../Css/Header.css';
 import Padri from '../../images/header_img.png';
+import TopMenu from '../TopMenu/TopMenu';
 
 const Header = () => {
     return (
         <section className="header">
-            <div className="container">
+                <TopMenu />
+            <div className="container">                
                 <MainMenu />
+
                 <div className="row">
                     <div className='col-md-8 text-white'>
                         <p>Our Mission From Jesus</p>
@@ -15,8 +18,8 @@ const Header = () => {
                             People Prayers
                         </h1>
                         <div>
-                            <button className='btn btn-primary'>Get Started</button>
-                            <button className='btn btn-primary'>Causes</button>
+                            <button className='btn btn-brand me-3'>GET STARTED</button>
+                            <button className='btn btn-brand'>CAUSES</button>
                         </div>
                     </div>
                     <div className='col-md-4'>

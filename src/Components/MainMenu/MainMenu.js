@@ -38,13 +38,8 @@ const MainMenu = () => {
                         </li>
                     </ul>
 
-                    <button className='btn btn-primary'>Donate Now</button>
-                    
-                    {/* <div class="search-box">
-                        <span class="icon"><FontAwesomeIcon icon={faSearch} /></span>
-                        <input type="search" id="search" placeholder="Search..." />
-                    </div> */}
-                    
+                    <button className='btn btn-brand'>DONATE NOW</button>
+                   
                 </div>
             </div>
         </nav>

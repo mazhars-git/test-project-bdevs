@@ -5,3 +5,18 @@
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+
+.btn-brand{
+    padding: 10px 30px;
+    background-color: #ec6e39;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+.btn-brand:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid rgb(3, 3, 3);
+}

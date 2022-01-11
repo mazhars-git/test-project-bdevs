@@ -2,6 +2,20 @@
     background-color: #121121;
     color: #fff;
 }
+
 .footer-content{
     box-shadow: 0px -6px 2px -6px rgb(255 252 252);
+}
+.footer-content p{
+    color: #9194b2;
+}
+.footer-content .back a{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ec6e39 !important;
+}
+
+.footer-content .icon{
+    margin: 5px;
 }

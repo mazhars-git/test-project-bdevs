@@ -1,0 +1,16 @@
+.top-menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.top-menu ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #8a949a !important;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.login-signup{
+    text-align: right;
+}
