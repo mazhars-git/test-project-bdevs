@@ -1,7 +1,9 @@
 import React from 'react';
+import Achievements from '../Achievements/Achievements';
 import Churches from '../Churches/Churches';
 import Contact from '../Contact/Contact';
 import Events from '../Events/Events';
+import Features from '../Features/Features';
 import Header from '../Header/Header';
 import Sermons from '../Sermons/Sermons';
 
@@ -13,6 +15,8 @@ const Home = () => {
             <Events />
             <Sermons />
             <Contact />
+            <Features />
+            <Achievements />
         </div>
     );
 };
