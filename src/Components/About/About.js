@@ -14,15 +14,35 @@ const About = () => {
                         <div className="row">
                             <div className="col-md-6">
                                 <h4>Company</h4>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Customers</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
                             </div>
                             <div className="col-md-6">
                                 <h4>Services</h4>
+                                <ul>
+                                    <li><a href="#">Donation</a></li>
+                                    <li><a href="#">Medical Service</a></li>
+                                    <li><a href="#">Adotion</a></li>
+                                    <li><a href="#">Charity</a></li>
+                                    <li><a href="#">Humanity</a></li>
+                                </ul>
                             </div>
                         </div>
                         
                     </div>
                     <div className="col-md-4">
                         <h4>Recent Sermons</h4>
+                        <span>19 HOURS AGO</span>
+                        <p>Lorem ipsum is a dummy Content is read
+                        </p>
+                        <span>19 HOURS AGO</span>
+                        <p>Lorem ipsum is a dummy Content is read
+                        </p>
                     </div>
                 </div>
             </div>
