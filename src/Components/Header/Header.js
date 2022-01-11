@@ -4,7 +4,7 @@ import '../Css/Header.css';
 import Padri from '../../images/header_img.png';
 import TopMenu from '../TopMenu/TopMenu';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCross } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faCross } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
@@ -23,6 +23,7 @@ const Header = () => {
                             <button className='btn btn-brand me-3'>GET STARTED</button>
                             <button className='btn btn-brand'>CAUSES</button>
                         </div>
+                       
                     </div>
                     <div className='col-md-4'>
                         <img src={Padri} className='img-fluid' alt="" />

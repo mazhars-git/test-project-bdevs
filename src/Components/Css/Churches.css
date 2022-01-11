@@ -1,0 +1,15 @@
+.church-content p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #899399;
+}
+.church-btn a{
+    text-decoration: none;
+    color: #899399;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.church-btn a:hover{
+    color: #ec6e39;
+}

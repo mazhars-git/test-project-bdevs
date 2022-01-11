@@ -1,5 +1,6 @@
 import React from 'react';
 import EventsData from './EventsData';
+import '../Css/Event.css';
 
 const Events = () => {
     const info =[
@@ -33,7 +34,7 @@ const Events = () => {
         },
     ]
     return (
-        <section>
+        <section className="event">
             <div className='container py-5'>
                 <p className='text-center'>Upcoming Events</p>
                 <h1 className='text-center'>Enjoy & Get Involved <br/>
