@@ -1,3 +1,8 @@
+.top-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
 .top-menu ul li{
     list-style: none;
     display: inline-block;
@@ -13,4 +18,7 @@
 }
 .login-signup{
     text-align: right;
+}
+.login-signup ul li a{
+    margin: 0;
 }

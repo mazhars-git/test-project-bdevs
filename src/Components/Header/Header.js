@@ -3,6 +3,8 @@ import MainMenu from '../MainMenu/MainMenu';
 import '../Css/Header.css';
 import Padri from '../../images/header_img.png';
 import TopMenu from '../TopMenu/TopMenu';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCross } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
@@ -11,10 +13,10 @@ const Header = () => {
             <div className="container">                
                 <MainMenu />
 
-                <div className="row">
-                    <div className='col-md-8 text-white'>
-                        <p>Our Mission From Jesus</p>
-                        <h1>United Churches <br/>
+                <div className="row align-items-center">
+                    <div className='col-md-8 header-content'>
+                        <p><FontAwesomeIcon icon={faCross} /> Our Mission From Jesus</p>
+                        <h1 className="heading pb-3">United Churches <br/>
                             People Prayers
                         </h1>
                         <div>
