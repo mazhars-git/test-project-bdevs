@@ -15,32 +15,36 @@ const Events = () => {
             date: '31',
             month: 'Jun',
             location: 'Limonda, 16/A, New York, USA',
-            title: 'Lafanga Little Bird Program', 
+            title: 'Rifanda Limango Chocolate', 
             details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
         },
         {
             date: '01',
             month: 'Jul',
             location: 'Limonda, 16/A, New York, USA',
-            title: 'Lafanga Little Bird Program', 
+            title: 'Tomadol Chips Party', 
             details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
         },
         {
             date: '01',
             month: 'Jul',
             location: 'Limonda, 16/A, New York, USA',
-            title: 'Lafanga Little Bird Program', 
+            title: 'Jimuna Lomanda Gang', 
             details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
         },
     ]
     return (
-        <section className="event">
+        <section className="events">
             <div className='container py-5'>
-                <p className='text-center'>Upcoming Events</p>
-                <h1 className='text-center'>Enjoy & Get Involved <br/>
-                    With US</h1>
+                <div className="events-header py-3">
+                    <p className='semi-heading'>Upcoming Events</p>
+                    <h1 className='text-center heading'>
+                        Enjoy & Get Involved <br/>
+                        With US
+                    </h1>
+                </div>
 
-                <div>
+                <div className="pt-4">
                     {
                         info.map(data => <EventsData data={data}></EventsData>)
                     }

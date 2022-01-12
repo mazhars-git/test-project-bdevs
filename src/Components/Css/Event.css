@@ -1,3 +1,39 @@
-.event{
+.events{
     background-color: #f9f9f9;
+   
+}
+.events-header{
+    background-image: url('../../images/events.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.events-header h1{
+    font-size: 60px;
+}
+
+.events-item{
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 7px;
+    align-items: center;
+}
+
+.date-item{
+    background-color: #ec6e39;
+    padding: 40px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.date-item p, .item-details p{
+    margin: 0;
+}
+.date-item .date{
+    font-size: 60px;
+}
+
+.item-details, .item-details span{
+    color: #9194b2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }

@@ -33,6 +33,7 @@
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
   }
 .btn-brand:hover{
     background-color: #fff;
