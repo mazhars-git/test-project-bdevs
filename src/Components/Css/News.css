@@ -1,0 +1,27 @@
+.news-header{
+    background-image: url('../../images/ups.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news-header h1{
+    font-size: 70px;
+}
+
+.news-content{
+    padding: 35px;
+}
+
+.news-content p{
+    color: #686893;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+.news-content h6{
+    font-size: 20px;
+}
+.news-content a{
+    color: #ec6e39;
+}

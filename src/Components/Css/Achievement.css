@@ -1,0 +1,24 @@
+.achievement{
+    background-color: #121121;
+}
+
+.achieve-content-box .count{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+.achieve-content-box .title{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #9194b2;
+}
+.plus{
+    font-size: 30px;
+    font-weight: 700;
+}
+.acv-box{
+    padding: 70px;
+    border-right: 1px solid #9194b2;
+}

@@ -3,6 +3,7 @@ import Image_1 from '../../images/news_1.png';
 import Image_2 from '../../images/news_2.png';
 import Image_3 from '../../images/news_3.png';
 import NewsData from './NewsData';
+import '../Css/News.css';
 
 const News = () => {
     const newses = [
@@ -26,12 +27,15 @@ const News = () => {
         }
     ]
     return (
-        <section>
+        <section className="news">
             <div className='container py-5'>
-                <p>News</p>
-                <h1>Stay Connect With <br/>
-                    Our Feeds
-                </h1>
+                <div className="news-header py-5">
+                    <p className="semi-heading">News</p>
+                    <h1 className="heading text-center">Stay Connect With <br/>
+                        Our Feeds
+                    </h1>
+                </div>
+                
                 <div className="row">
                     {
                         newses.map(data => <NewsData data={data}></NewsData>)

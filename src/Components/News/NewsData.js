@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const NewsData = (props) => {
-    const {title, image, details} = props.data;
+    const {title, image, details, date} = props.data;
     return (
         <div className='col-md-4'>
-            <div>
                 <img className='img-fluid' src={image} alt="" />
-                <h5>{title}</h5>
+            <div className="news-content">
+                <span>{date}</span>
+                <h6 className="py-3 heading">{title}</h6>
                 <p>{details}</p>
                 <a href="#"><FontAwesomeIcon icon={faAngleDoubleRight} /></a>                
             </div>
