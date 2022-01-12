@@ -19,22 +19,22 @@ const MainMenu = () => {
                             <a class="nav-link" href="/home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#service">Event</a>
+                            <a class="nav-link" href="#event">Event</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#works">Prayers</a>
+                            <a class="nav-link" href="#prayers">Prayers</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Causes</a>
+                            <a class="nav-link" href="#features">Causes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#news">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Sermons</a>
+                            <a class="nav-link" href="#sermons">Sermons</a>
                         </li>
                     </ul>
 

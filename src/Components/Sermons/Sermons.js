@@ -30,7 +30,7 @@ const Sermons = () => {
         },
     ]
     return (
-        <section>
+        <section id="sermons">
             <div className='container py-5'>
                 <div className="sermons-header pt-5">
                     <p className="semi-heading">Sermons</p>

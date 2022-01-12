@@ -8,8 +8,8 @@ const TopMenu = () => {
     return (
         <section>
             <div className='container'>
-            <div className="row top-menu">
-                    <div className="col-md-6 social-icon">
+            <div className="row top-menu align-items-center">
+                    <div className="d-flex justify-content-between social-icon">
                         <ul>
                             <li><a href="#"><FontAwesomeIcon icon={faFacebookF} /></a></li>
                             <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
@@ -17,8 +17,7 @@ const TopMenu = () => {
                             <li><a href="#"><FontAwesomeIcon icon={faYoutube} /></a></li> 
                             <li><a href="#"><FontAwesomeIcon icon={faPinterestP} /></a></li> 
                         </ul>
-                    </div>
-                    <div className="col-md-6 login-signup">
+
                         <ul>
                             <li><a href="#"><FontAwesomeIcon icon={faLock} />  SIGNUP/LOGIN</a></li>
                         </ul>

@@ -42,7 +42,7 @@ const Features = () => {
         }
     ]
     return (
-        <section>
+        <section id="features">
             <div className="container py-5">
                 <div className='feature-header pt-4'>
                     <p className="semi-heading">Features</p>

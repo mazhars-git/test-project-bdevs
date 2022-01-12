@@ -34,7 +34,7 @@ const Events = () => {
         },
     ]
     return (
-        <section className="events">
+        <section className="events" id="event">
             <div className='container py-5'>
                 <div className="events-header py-3">
                     <p className='semi-heading'>Upcoming Events</p>

@@ -14,13 +14,17 @@
 .sermon-content{
     padding: 20px;
 }
+.sermon-content span{
+    color: #9194b2;
+    font-style: italic;
+}
 .control-menu ul{
     margin: 0;
     padding: 0;
     text-align: center;
 }
 .control-menu ul li{
-    margin-right: 5px;
+    margin-right: 15px;
     display: inline-block;
     align-items: center;
 }
@@ -33,4 +37,8 @@
     padding: 15px 10px;
     width: 70%;
     margin: auto;
+}
+
+.control-menu ul li a{
+    color: #9194b2;
 }

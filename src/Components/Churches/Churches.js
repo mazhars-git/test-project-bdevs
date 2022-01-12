@@ -5,7 +5,7 @@ import '../Css/Churches.css';
 
 const Churches = () => {
     return (
-        <section>
+        <section id="prayers">
             <div className='container py-5'>
                 <div className='row py-5'>
                     <div className='col-md-6'>

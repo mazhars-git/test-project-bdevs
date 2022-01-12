@@ -27,7 +27,7 @@ const News = () => {
         }
     ]
     return (
-        <section className="news">
+        <section className="news" id="news">
             <div className='container py-5'>
                 <div className="news-header py-5">
                     <p className="semi-heading">News</p>

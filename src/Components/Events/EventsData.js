@@ -9,7 +9,7 @@ const EventsData = (props) => {
                 <p>{month}</p>
             </div>
             <div className="col-md-7 item-details">
-                <div className="ms-3">
+                <div className="ms-3 py-3">
                     <span>{location}</span>
                     <h1 className="heading">{title}</h1>
                     <p>{details}</p>
