@@ -1,0 +1,22 @@
+.review-content{
+    background-image: url('../../images/cotation.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 72%;
+    margin: auto;
+}
+
+.review-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+.review-pic img{
+    border: 4px solid #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px gray;
+    width: 50px;
+    margin-right: 7px;
+}
