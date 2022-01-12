@@ -6,6 +6,7 @@ import Icon_4 from '../../images/f_4.png';
 import Icon_5 from '../../images/f_5.png';
 import Icon_6 from '../../images/f_6.png';
 import FeatureInfo from './FeatureInfo';
+import '../Css/Features.css';
 
 const Features = () => {
     const featureInfos = [
@@ -43,12 +44,14 @@ const Features = () => {
     return (
         <section>
             <div className="container py-5">
-                <p className="text-center">Features</p>
-                <h1 className="text-center">Let's make the world <br/>
-                    better, together
-                </h1>
+                <div className='feature-header pt-4'>
+                    <p className="semi-heading">Features</p>
+                    <h1 className="heading text-center pb-5">Let's make the world <br/>
+                        better, together
+                    </h1>
+                </div>
 
-                <div className='row'>
+                <div className='row pb-4'>
                     {
                         featureInfos.map(f_data => <FeatureInfo info={f_data}></FeatureInfo>)
                     }

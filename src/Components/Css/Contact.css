@@ -17,6 +17,9 @@
     z-index: -10;
     opacity: .9;
 }
+.contact h1{
+    font-size: 70px;
+}
 .contact-form label{
     margin-top: 25px;
     font-size: 14px;

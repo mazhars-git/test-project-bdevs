@@ -1,0 +1,31 @@
+.feature-header{
+    background-image: url('../../images/features.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.feature-header h1{
+    font-size: 70px;
+}
+.feature-content{
+    margin-right: 45px;
+    margin-bottom: 30px;
+}
+
+.feature-content h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.feature-content p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color:#9194b2;
+}
+.feature-content a{
+    text-decoration: none;
+    color: #9194b2;
+    font-weight: 600;
+}
+.feature-content a:hover{
+    color: #ec6e39;
+}

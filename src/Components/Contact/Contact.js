@@ -31,6 +31,7 @@ const Contact = () => {
                         <select id="religion" class="form-select select">
                         <option selected>Select Religion</option>
                         <option>Islam</option>
+                        <option>Christian</option>
                         <option>Hindu</option>
                         <option>Buddha</option>
                         </select>
@@ -48,9 +49,9 @@ const Contact = () => {
                         <label for="inputState" class="form-label"></label>
                         <select id="inputState" class="form-select select">
                         <option selected>State</option>
-                        <option>New York</option>
-                        <option>UK</option>
-                        <option>LONDON</option>
+                        <option>Texas</option>
+                        <option>Florida</option>
+                        <option>Ohio</option>
                         </select>
                     </div>
                    
