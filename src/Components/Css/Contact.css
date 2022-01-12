@@ -1,0 +1,33 @@
+.contact{
+    background-image: url("../../images/jessu.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.contact::before{
+    position: absolute;
+    content: '';
+    background: #1c1824;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    opacity: .9;
+}
+.contact-form label{
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-form input, .select{
+    background: none;
+    border-radius: 0;
+    border: 2px solid #9194b2;
+    padding: 20px;
+    color: #9194b2;
+}
