@@ -3,6 +3,7 @@ import Image_1 from '../../images/prayer_1.png';
 import Image_2 from '../../images/prayer_2.png';
 import Image_3 from '../../images/prayer_3.png';
 import SermonsData from './SermonsData';
+import '../Css/Sermons.css';
 
 const Sermons = () => {
     const data =[
@@ -31,12 +32,15 @@ const Sermons = () => {
     return (
         <section>
             <div className='container py-5'>
-                <p>Sermons</p>
-                <h1>
-                    Pray From Your <br/>
-                    Heart & Soul
-                </h1>
-                <div className='row'>
+                <div className="sermons-header pt-5">
+                    <p className="semi-heading">Sermons</p>
+                    <h1 className="heading text-center pb-3">
+                        Pray From Your <br/>
+                        Heart & Soul
+                    </h1>
+                </div>
+
+                <div className='row pt-4'>
                     {
                         data.map(info => <SermonsData info={info}></SermonsData>)
                     }

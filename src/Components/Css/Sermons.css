@@ -1,0 +1,38 @@
+.sermons-header{
+    background-image: url('../../images/sermons.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sermons-header h1{
+    font-size: 70px;
+}
+.sermon-box{
+    border: 1px solid #9194b2;
+}
+
+.sermon-content{
+    padding: 20px;
+}
+.control-menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.control-menu ul li{
+    margin-right: 5px;
+    display: inline-block;
+    align-items: center;
+}
+.sermon-img{
+    z-index: -1;
+}
+.control-menu{
+    background: #fff;
+    border: 1px solid #9194b2;
+    border-radius: 30px;
+    padding: 15px 10px;
+    width: 70%;
+    margin: auto;
+    z-index: 10;
+}
