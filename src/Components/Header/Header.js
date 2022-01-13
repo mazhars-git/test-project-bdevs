@@ -19,14 +19,14 @@ const Header = () => {
                         <h1 className="heading pb-3">United Churches <br/>
                             People Prayers
                         </h1>
-                        <div>
+                        <div className="pb-2">
                             <button className='btn btn-brand me-3'>GET STARTED</button>
                             <button className='btn btn-brand'>CAUSES</button>
                         </div>
                        
                     </div>
                     <div className='col-md-4'>
-                        <img src={Padri} className='img-fluid' alt="" />
+                        <img src={Padri} className='w-100' alt="" />
                     </div>
                 </div>
             </div>

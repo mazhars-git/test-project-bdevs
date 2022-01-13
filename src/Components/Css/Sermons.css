@@ -28,15 +28,19 @@
     display: inline-block;
     align-items: center;
 }
-.sermon-img{
+.sermon-img-box{
+    position: relative;
 }
 .control-menu{
+    position: absolute;
+    bottom: 0;
+    left: 15%;
     background: #fff;
     border: 1px solid #9194b2;
     border-radius: 30px;
     padding: 15px 10px;
     width: 70%;
-    margin: auto;
+    margin: -28px auto;
 }
 
 .control-menu ul li a{

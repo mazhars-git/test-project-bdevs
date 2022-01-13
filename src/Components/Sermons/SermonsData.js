@@ -9,8 +9,8 @@ const SermonsData = (props) => {
     return (
         <div className="col-md-4 pb-3">
             <div className="sermon-box">
-                <div className="sermon-img">
-                    <img src={image} className="w-100 " alt="" />
+                <div className="sermon-img-box">
+                    <img src={image} className="sermon-img w-100 " alt="" />
                     <div className="control-menu">
                         <ul>
                             <li><a href="#"><FontAwesomeIcon icon={faPlay}/></a></li>
