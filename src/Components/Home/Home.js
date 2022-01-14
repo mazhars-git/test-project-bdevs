@@ -8,7 +8,7 @@ import Features from '../Features/Features';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import News from '../News/News';
-import Reviews from '../Reviews/Reviews';
+import ReviewSample from '../Reviews/ReviewSample';
 import Sermons from '../Sermons/Sermons';
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
             <Contact />
             <Features />
             <Achievements />
-            <Reviews />
+            <ReviewSample />
             <News />
             <About />
             <Footer />
